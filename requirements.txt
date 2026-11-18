@@ -1,0 +1,2 @@
+# Only needed for hardware reading. --status and tests use the standard library.
+hidapi>=0.14

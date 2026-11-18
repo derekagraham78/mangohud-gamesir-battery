@@ -1,0 +1,3 @@
+# Optional: grant the logged-in desktop user HID access to this receiver.
+# This grants access to its HID interfaces, not only battery information.
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="3537", ATTRS{idProduct}=="10c6", TAG+="uaccess"
